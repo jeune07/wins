@@ -23,7 +23,7 @@ function HeroSection() {
       <div className="grid grid-cols-1 items-start lg:grid-cols-2 lg:gap-12 gap-y-8">
         <div className="order-2 lg:order-1 flex flex-col items-start justify-center p-2 pb-20 md:pb-10 lg:pt-10">
           <h1 className="text-3xl font-bold leading-10 text-white md:font-extrabold lg:text-[2.6rem] lg:leading-[3.5rem]">
-            Hello, <br />
+            Hi , <br />
             This is {' '}
             <span className=" text-pink-500">{personalData.name}</span>
             {` , I'm a Professional `}
@@ -46,20 +46,20 @@ function HeroSection() {
             >
               <BsLinkedin size={30} />
             </Link>
-            <Link
+            {/* <Link
               href={personalData.facebook}
               target='_blank'
               className="transition-all text-pink-500 hover:scale-125 duration-300"
             >
               <FaFacebook size={30} />
-            </Link>
-            <Link
+            </Link> */}
+            {/* <Link
               href={personalData.leetcode}
               target='_blank'
               className="transition-all text-pink-500 hover:scale-125 duration-300"
             >
               <SiLeetcode size={30} />
-            </Link>
+            </Link> */}
             <Link
               href={personalData.twitter}
               target='_blank'
@@ -108,7 +108,7 @@ function HeroSection() {
               <div>
                 <span className="ml-4 lg:ml-8 mr-2 text-white">name:</span>
                 <span className="text-gray-400">{`'`}</span>
-                <span className="text-amber-300">Abu Said</span>
+                <span className="text-amber-300">Winsley Jeune</span>
                 <span className="text-gray-400">{`',`}</span>
               </div>
               <div className="ml-4 lg:ml-8 mr-2">
@@ -130,6 +130,18 @@ function HeroSection() {
                 <span className="text-gray-400">{"', '"}</span>
                 <span className="text-amber-300">Docker</span>
                 <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">WordPress</span>
+                 <span className="text-gray-400">{"', '"}</span>
+                 <span className="text-amber-300">Taiwind</span>
+                 <span className="text-gray-400">{"', '"}</span>
+                 <span className="text-amber-300">CSS</span>
+                 <span className="text-gray-400">{"', '"}</span>
+                 <span className="text-amber-300">Javascript</span>
+                 <span className="text-gray-400">{"', '"}</span>
+                 <span className="text-amber-300">Python</span>
+                 <span className="text-gray-400">{"', '"}</span>
+                 <span className="text-amber-300">Woocommerce</span>
+                 <span className="text-gray-400">{"', '"}</span>
                 <span className="text-amber-300">AWS</span>
                 <span className="text-gray-400">{"'],"}</span>
               </div>

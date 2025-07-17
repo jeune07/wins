@@ -1,52 +1,73 @@
 export const projectsData = [
-    {
-        id: 1,
-        name: 'AI Powered Financial App',
-        description: "Me and my team built an AI-powered financial mobile application. I have developed API using Express, Typescript, OpenAI, AWS, and MongoDB. Used OTP via AWS SES, Google, and Facebook for the authentication system. Built AI assistants using OpenAI's latest model and trained using our dataset. Voice messages are converted to text using AWS Transcribe. The app fetches data from Google Sheets and generates a PDF term sheet, sent via AWS SES.",
-        tools: ['Express', 'MongoDB', 'OpenAI API', 'AWS SES', 'AWS S3', 'Node Mailer', 'Joi', 'Puppeteer', 'EC2', 'PM2', 'Nginx'],
-        role: 'Backend Developer',
-        code: '',
-        demo: '',
-    },
-    {
-        id: 2,
-        name: 'Travel Agency App',
-        description: 'I have designed and developed a full-stack web app for 2Expedition, a travel agency in Armenia. I created the UI using NextJS, Typescript, MUI, TailwindCSS, Google Maps, Sun-Editor, and React Slick. The app supports multiple languages and currencies. I developed the API using NestJS, Typescript, MySQL, TypeORM, AWS, and Nodemailer. I deployed the front-end app to AWS Amplify and the back-end app to AWS EC2.',
-        tools: ['NextJS', 'Tailwind CSS', "Google Maps", "NestJS", "TypeScript", "MySQL", "AWS S3", "Sun-Editor", "Gmail Passkey"],
-        role: 'Full Stack Developer',
-        code: '',
-        demo: '',
-    },
-    {
-        id: 3,
-        name: 'AI Powered Real Estate',
-        description: 'My team built an AI-based real estate app using Replicate API and OpenAI. We used Express, Typescript, OpenAI, Replicate, Stripe, and Mongoose to develop the API. We utilized NextJS, Formik, TailwindCSS, and other npm libraries for the UI. We have trained multiple AI assistants using the latest GPT model and integrated Replicate API for image processing. We added role-based auth, subscription plans, Cron job scheduling, and payment integration with Stripe.',
-        tools: ['React', 'Bootstrap', 'SCSS', 'Stripe', 'Express', 'TypeScript', 'MongoDB', 'Azure Blob', 'OpenAI API', 'Replicate AI', 'Cronjob', 'JWT'],
-        code: '',
-        role: 'Full Stack Developer',
-        demo: '',
-    },
-    {
-        id: 4,
-        name: 'Newsroom Management',
-        description: "My team and I developed a newspaper management dashboard application called Newsroom Management. As a front-end developer, I worked on creating the dashboard using NextJS, Material UI, Redux, Calendar, and other necessary npm libraries. We used React Redux to manage the application's state and React-hook-form and Sun Editor to handle forms.",
-        tools: ['NextJS', 'Material UI', 'Redux', 'Sun Editor', "Calendar"],
-        code: '',
-        demo: '',
-        role: 'Full Stack Developer',
-    }
+  {
+    id: 1,
+    name: 'MarketMiner – AI Product Trend Tracker',
+    description:
+      'Built a private intelligence system that finds high-ROI products to resell. Used Node.js, Express, MongoDB, and OpenAI to score products, integrated Amazon SP-API and Bright Data for validation. Built full frontend in Next.js with real-time filtering, caching, and score tracking.',
+    tools: ['Next.js', 'React.js', 'Tailwind CSS', 'Node.js', 'Express', 'MongoDB', 'Bright Data', 'SP-API', 'OpenAI', 'Keepa'],
+    role: 'Full Stack Developer',
+    code: '',
+    demo: '',
+  },
+  {
+    id: 2,
+    name: 'UnicornStainless Website',
+    description:
+      'Developed a modern, responsive corporate website for a stainless steel manufacturer. Focused on fast load times, cross-browser compatibility, and clean design. Built using a custom WordPress theme with advanced ACF integration and performance optimizations.',
+    tools: ['WordPress', 'ACF Pro', 'PHP', 'JavaScript', 'SCSS', 'Responsive Design'],
+    role: 'WordPress Developer',
+    code: '',
+    demo: '',
+  },
+  {
+    id: 3,
+    name: 'PTO Request App',
+    description:
+      'Designed and built a PTO management system for internal use. Created a calendar-based request interface with multi-date support, role-based permissions, and admin approvals. Backend is Laravel; frontend uses Vue.js and Tailwind CSS. System updates in real-time across components after submission.',
+    tools: ['Vue.js', 'Laravel', 'Tailwind CSS', 'MySQL', 'Vite'],
+    role: 'Full Stack Developer',
+    code: '',
+    demo: '',
+  },
+  {
+    id: 4,
+    name: 'Atlantis Rail Website Rebuild',
+    description:
+      'Currently rebuilding the Atlantis Rail corporate website. Focused on modernizing UI/UX, improving mobile responsiveness, and optimizing WordPress performance. Includes WooCommerce enhancements and structured product catalog display.',
+    tools: ['WordPress', 'WooCommerce', 'JavaScript', 'SCSS', 'Responsive Layout', 'PageSpeed Optimization'],
+    role: 'WordPress Developer',
+    code: '',
+    demo: '',
+  },
+  {
+    id: 5,
+    name: 'Remote Tank Monitoring Platform',
+    description:
+      'Working on an IoT-based SaaS platform for real-time tank monitoring. Uses ThingsBoard for dashboarding and device management, integrated with predictive refill alerts and mobile alerts. The system targets fuel and chemical delivery companies looking to optimize logistics.',
+    tools: ['ThingsBoard', 'MQTT', 'Node.js', 'React.js', 'PostgreSQL', 'Docker', 'IoT'],
+    role: 'System Architect & Developer',
+    code: '',
+    demo: '',
+  },
+  {
+    id: 6,
+    name: 'Ponliv – Book Resale & Kit Marketplace',
+    description:
+      'A platform that helps students and schools buy/sell books and educational kits. Built full CRUD APIs, role logic, and dynamic React frontend. Integrated listing rules for single items and kit bundles. Built to serve Haitian communities.',
+    tools: ['React.js', 'Tailwind CSS', 'Node.js', 'Express', 'MongoDB', 'Mongoose'],
+    role: 'Full Stack Developer',
+    code: '',
+    demo: '',
+  },
+ 
+  {
+    id: 7,
+    name: 'WooCommerce Product Import Plugin',
+    description:
+      'Built a custom WooCommerce plugin to scan content blocks and convert HTML tables into variable products with SKUs, pricing, and attributes. Features CSV import/export, dry run testing, and admin dashboard logging.',
+    tools: ['PHP', 'WordPress', 'WooCommerce', 'JavaScript', 'CSV Parsing', 'WP Admin UI'],
+    role: 'Plugin Developer',
+    code: '',
+    demo: '',
+  }
 ];
-
-
-// Do not remove any property.
-// Leave it blank instead as shown below
-
-// {
-//     id: 1,
-//     name: '',
-//     description: "",
-//     tools: [],
-//     role: '',
-//     code: '',
-//     demo: '',
-// },
